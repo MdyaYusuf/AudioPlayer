@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  width: 20rem !important;
+}
+#progress .times,
+.card-footer,
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.volume-container i {
+  padding-right: 0.4rem;
+}
+#audio-details p {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  padding: 0.2rem 0;
+}
+.times span {
+  font-size: 1rem;
+}
+li.playing {
+  background-color: #e4a11b;
+  color: #fff;
+}
